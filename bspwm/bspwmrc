@@ -20,3 +20,7 @@ nitrogen --restore &
 $HOME/.config/polybar/launch.sh
 
 picom --no-startup-id picom  -b --config ~/.config/picom/picom.conf 
+
+/usr/lib/polkit-kde-authentication-agent-1 &
+
+xinput --set-prop 'SYNA3296:00 06CB:CD50 Touchpad' "lib>
